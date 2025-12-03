@@ -65,6 +65,9 @@ let vehicles = {
 
 }
 
+
+
+
 console.log("the color of", vehicles.color ,"and the size is", vehicles.size, "and the price is", vehicles.price);
 
 
@@ -76,3 +79,13 @@ let food = {
     option:"pasta",
 }
 console.log(food.type, food.taste, food.price, food.location, food.option);
+
+
+let student = {
+    rollno:128,
+    name:"Neeti",
+    branch:"CSE",
+    semester:"V",
+}
+
+console.log(student.name);
