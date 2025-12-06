@@ -19,7 +19,6 @@ while(++x){
     console.log("x value is", x);
     console.log("x is",x++);
     console.log("x=",x);
-
     break;
-    
+
 }
