@@ -12,20 +12,14 @@
        
 // }
 
+
 // let rice = {
 //     quanity: "500gm",
 //     color: "brown"
 // }
 // console.log(rice.color);
-let obj={
 
-    name:"vinod",
-    class:"1st",
-    school:"llm",
-    "city":"harshud",
-    under_age:false,
-    salary:1000000000
-}
-console.log(obj.class , obj.city, obj.salary);
+
+
 
 
