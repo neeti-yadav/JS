@@ -17,25 +17,15 @@
 //     color: "brown"
 // }
 // console.log(rice.color);
+let obj={
 
- function romwo() {
-    if(  null|| true){
-        let a=;
-        console.log("a value", --a);
+    name:"vinod",
+    class:"1st",
+    school:"llm",
+    "city":"harshud",
+    under_age:false,
+    salary:1000000000
+}
+console.log(obj.class , obj.city, obj.salary);
 
-        console.log("value",a--);
-        console.log("valuw", ++a);
-        console.log("value",a);
-        
-        
-        
-        
-console.log("enter");
-if(!false|| false){
-    console.log("inside false");
-    
-}
 
-}
-}
-romwo()
