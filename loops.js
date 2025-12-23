@@ -28,8 +28,9 @@ console.log("-------------------------------");
 console.log("Do While Loop");
 console.log("-------------------------------");
 
+
 let k=1;
 do{
     console.log(k);
     k++;
-}while(k<7);
+}while(k<7);``
