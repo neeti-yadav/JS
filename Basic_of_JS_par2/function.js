@@ -75,7 +75,6 @@ let returningTypeFunction=function (a,b){
  console.log("values is => ", value);
 
 
-
  let stringReturn=function (str) {
     return str;
     
