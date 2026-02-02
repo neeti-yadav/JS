@@ -146,18 +146,140 @@
 //     console.log("multiply is in arrow function",m*n);
 // }
 // multiply(m,n)
-let apiData=null;
-function nam(apiData) {
 
-    console.log("*****APIDAAA",apiData);
+
+
+
+
+// let apiData=null;
+// function nam(apiData) {
+
+//     console.log("*****APIDAAA",apiData);
     
-    if(!apiData){
+//     if(!apiData){
 
-        console.log("error it is empty", apiData);
+//         console.log("error it is empty", apiData);
         
+//     }
+
+
+// }
+// nam(apiData)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//practice functions
+let number={
+    firstnum:1,
+    secondnum:2,
+    thirdnum:3
+}
+
+// 
+// function sum(a,b){
+//     console.log("the sum is ",a+b);
+// }
+// sum(number.firstnum,number.secondnum,number.thirdnum)
+
+
+// function subtract(c,d,e){
+//     console.log("sub is",c-d-e);
+// }
+// subtract(number.firstnum,number.secondnum,number.thirdnum);
+
+
+
+// function divide(n,m){
+//     console.log("divide is",m/n);
+// }
+// divide(number.secondnum,number.firstnum)
+
+
+
+
+
+// divide=(n,m)=>{
+//     console.log("div is",n/m);
+// }
+// divide(number.firstnum,number.secondnum)
+
+
+
+// subtract=(k,l)=>{
+//     console.log("sub is",l-k);
+// }
+// subtract(number.secondnum,number.firstnum)
+
+
+// multiplication=(z,x)=>{
+//     console.log(z*x);
+// }
+// multiplication(number.secondnum,number.firstnum)
+
+
+
+
+
+
+
+
+
+function add(x,y) {
+    console.log("x,y",x,y);
+    return x+y
+    
+}
+
+function sub(x,y) {
+    return x-y
+}
+
+
+
+const calculator=(val1,val2,kya_karwana_hai)=>{
+
+    if(kya_karwana_hai==="sum"){
+
+        console.log("vaa",val1,val2);
+        return add(val1,val2)
+    }
+
+    else if( kya_karwana_hai==="sub"){
+       return  sub(val1,val2)
     }
 
 
 }
-nam(apiData)
+
+
+let value_is=calculator(4,3,"sub")
+
+console.log("value thriugh calcy",value_is);
+
+
+
+
+
+function addon(g,h){
+    return g+h;
+   
+}
+let stored =addon(1,2)
+console.log("print",stored);
 
