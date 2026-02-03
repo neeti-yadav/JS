@@ -168,22 +168,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //practice functions
 let number={
     firstnum:1,
@@ -233,53 +217,191 @@ let number={
 // multiplication(number.secondnum,number.firstnum)
 
 
-
-
-
-
-
-
-
-function add(x,y) {
-    console.log("x,y",x,y);
-    return x+y
+// function add(x,y) {
+//     console.log("x,y",x,y);
+//     return x+y
     
-}
+// }
 
-function sub(x,y) {
-    return x-y
-}
-
-
-
-const calculator=(val1,val2,kya_karwana_hai)=>{
-
-    if(kya_karwana_hai==="sum"){
-
-        console.log("vaa",val1,val2);
-        return add(val1,val2)
-    }
-
-    else if( kya_karwana_hai==="sub"){
-       return  sub(val1,val2)
-    }
-
-
-}
-
-
-let value_is=calculator(4,3,"sub")
-
-console.log("value thriugh calcy",value_is);
+// function sub(x,y) {
+//     return x-y
+// }
 
 
 
+// const calculator=(val1,val2,kya_karwana_hai)=>{
+
+//     if(kya_karwana_hai==="sum"){
+
+//         console.log("vaa",val1,val2);
+//         return add(val1,val2)
+//     }
+
+//     else if( kya_karwana_hai==="sub"){
+//        return  sub(val1,val2)
+//     }
 
 
-function addon(g,h){
-    return g+h;
+// }
+
+// let value_is=calculator(4,3,"sub")
+
+// console.log("value thriugh calcy",value_is);
+
+
+
+// function addon(g,h){
+//     return g+h;
    
-}
-let stored =addon(1,2)
-console.log("print",stored);
+// }
+// let stored =addon(1,2)
+// console.log("print",stored);
+
+
+// function minus(p,k){
+//     return p-k
+// }
+// let storeminus =minus(9999999,2345354)
+// console.log("stored minus value is",storeminus);
+
+// function multiply(y,t){
+//     return y*t
+// }
+// let store=multiply(5,6)
+// console.log("value is",store);
+
+
+
+
+// divide=(j,f)=>{
+//     return j/f
+
+// }
+// let storedivide =divide(50,5)
+// console.log("divide val", storedivide);
+
+
+
+
+
+// function age(a){
+//     if(a>=18){
+//         return " you can vote"
+//     }
+//     else{
+//     return "you can no vote"
+//     }
+// }
+// let storeage = age(1)
+// console.log("",storeage);
+
+
+
+
+
+
+// function age(numage){
+//     if(numage<=18){
+//         return "you can no vote"
+//     }
+//     else{
+//         return "you can vote"
+//     }
+// }
+// let agestored =age(16)
+// console.log("",agestored);
+
+
+
+
+// age=(numage)=>{
+//     if(numage<=18){
+//         return "you can no vote"
+//     }
+//     else{
+//         return "you can vote"
+//     }
+// }
+// let agestored =age(16)
+// console.log("",agestored);
+
+
+
+
+
+
+
+
+// let fullInformation = {
+//     name: "NeetiYadav",
+//     sem: "6th",
+//     course: "Btech",
+//     branch: "CSE",
+//     rollno: 673537,
+// }
+
+
+// function rollno(info){
+//     if(info===fullInformation.rollno){
+//          console.log("",info);
+//     return fullInformation
+//     }
+//    else{
+//     return "INCORRECT ROLLNO"
+//    }
+// }
+
+// let infostored =rollno(67357)
+// console.log("",infostored);
+
+
+
+
+
+// let days = {
+//     "1":"Monday",
+//     "2":"Tuesday",
+//     "3":"Wednesday",
+//     "4":"Thursday",
+//     "5":"Friday",
+//     "6":"Saturday",
+//     "7":"Sunday",
+// }
+
+// function day(anynumber){
+//     if(anynumber===1){
+//         return days["2"]
+//     }
+//      if(anynumber===2){
+//         return days["1"]
+//     }
+//      if(anynumber===3){
+//         return days["3"]
+//     }
+//      if(anynumber===4){
+//         return days["1"]
+//     }
+//      if(anynumber===5){
+//         return days["5"]
+//     }
+//      if(anynumber===6){
+//         return days["6"]
+//     }
+//      if(anynumber===7){
+//         console.log("Congrats,Today is sunday",7);
+//         return days["7"]
+        
+//     }
+//     else{
+//         return "Number is not valid"
+//     }
+// }
+
+// let daycount =day(3)
+// console.log("The Day is ", daycount);
+
+
+
+
+
 
