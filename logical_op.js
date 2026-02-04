@@ -8,8 +8,18 @@
     
 // }
 
-if(true && 451){    console.log("not gobba "); 
+// if(true && 451){    console.log("not gobba "); 
        
-}
+// }
+
+
+// let rice = {
+//     quanity: "500gm",
+//     color: "brown"
+// }
+// console.log(rice.color);
+
+
+
 
 
