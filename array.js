@@ -69,15 +69,75 @@
 
 
 
+// for(i=1;i<=3;i++){
+//     console.log("* * *");
+// }
 
-for(i=1;i<=10;i++){
 
-    let stars=""
-    for( let j=1;j<=i;j++){
+// function table(){
 
-      
-        stars+="*"
+    
+//     for( let i=1;i<=10;i++){
+//         console.log(" 2 x ",i,"=",2*i);
+//     }
 
-    }
-    console.log(stars);
-}
+// }
+// // table()
+
+
+
+// function primeNumber(number) {
+
+//     let cnt=0
+// for( let i=1;i<=number;i++){
+//     if( number%i===0 ){
+//      cnt++
+//     }
+
+// }
+// console.log("count", cnt);
+//     if( cnt===2){
+//         return number
+//     }
+//      if( cnt>2){
+//         return "not a prime "
+//      }
+
+// }
+
+// let prm=primeNumber(8)
+
+// console.log("prime number", prm);
+
+
+// for(i=1;i<=10;i++){
+//     if(!(i%2===0)){
+//         console.log("2 x ",i,"=",i*2);
+//     }
+// }
+
+
+
+
+
+// let array_number=[1,2,3,4,5,6,7,8,9,10];
+// let odd_array = []
+// let even_array = []
+// for(i=0;i<array_number.length;i++){
+//     if(array_number[i]%2===0){
+       
+//         even_array.push(array_number[i])
+        
+
+       
+//     }
+//     else{
+       
+//         odd_array.push(array_number[i])
+//     }
+// }
+// console.log(" odd array:",odd_array);
+// console.log(" even array:",even_array);
+
+
+
